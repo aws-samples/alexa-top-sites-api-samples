@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 5. Run:
 
-python topsites.py --key=<API_KEY> --action=TopSites --options="&Count=5&Output=json&ResponseGroup=Country" --Country=US
+python topsites.py --key=<API_KEY> --action=TopSites --options="&count=5&Output=json&ResponseGroup=Country" --Country=US
 
 If you are getting "Not Authorized" messages, you probably have one of the
 following problems:
